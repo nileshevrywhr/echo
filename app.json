@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ECHO",
+    "slug": "echo-standalone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to microphone for voice conversations."
+      },
+      "bitcode": false,
+      "bundleIdentifier": "com.bananalabs.echorn"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/v5jrb1v5jrb1v5jr.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.INTERNET",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.WAKE_LOCK",
+        "android.permission.BLUETOOTH"
+      ],
+      "package": "com.bananalabs.echorn"
+    },
+    "plugins": [
+      "@config-plugins/react-native-webrtc"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "72598f6b-116b-44ec-b623-fd0679aeba4c"
+      }
+    },
+    "owner": "bananalabs"
+  }
+}
