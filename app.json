@@ -14,7 +14,7 @@
         "NSMicrophoneUsageDescription": "This app needs access to microphone for voice conversations."
       },
       "bitcode": false,
-      "bundleIdentifier": "com.bananalabs.echorn"
+      "bundleIdentifier": "com.bananalabs.echo"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,7 +31,7 @@
         "android.permission.WAKE_LOCK",
         "android.permission.BLUETOOTH"
       ],
-      "package": "com.bananalabs.echorn"
+      "package": "com.bananalabs.echo"
     },
     "plugins": [
       "@config-plugins/react-native-webrtc"
